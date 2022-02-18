@@ -1,0 +1,29 @@
+.swiper-button-next, .swiper-button-prev {
+    z-index: 13;
+    height: 40px;
+    width: 40px;
+    @include circle;
+    border: 1px solid $menuText;
+    align-self: flex-end;
+    margin-bottom: 70px;
+    color: $menuText;
+    background-color: $white;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: inherit;
+}
+
+.swiper-button-next::after {
+    content: $arrowRight;
+}   
+
+.swiper-button-prev {
+    &::after {
+        content: $arrowLeft;
+    }
+}
+
+.swiper-button-disabled {
+    opacity: 0 !important;
+}

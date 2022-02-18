@@ -1,0 +1,10 @@
+.right-side-link {
+    z-index: 10;
+    display: inline-block;
+    position: absolute;
+    top: 365px;
+    right: 0;
+    @include font(14px, 300);
+    transform: rotate(90deg);
+    color: $menuText;
+}

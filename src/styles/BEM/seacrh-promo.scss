@@ -1,0 +1,15 @@
+.search-promo {
+    @include flex-box(row, space-between);
+    color: $menuText;
+    @include font(15px, 300);
+    font-family: 'GraphikKinopoiskLCApp';
+}
+
+.search-promo__arrow {
+    transform: scale(-1);
+    width: 50px;
+    background: url('../../img/arrow-scroll.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 5px;
+    margin-left: 20px;
+}

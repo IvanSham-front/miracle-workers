@@ -1,0 +1,15 @@
+.nav-page {
+    border-bottom: 1px solid $menuText;
+    min-width: 8px;
+    padding-bottom: 5px;
+}
+
+.nav-page__number {
+    @include font(16px, bold);
+    margin-right: 20px;
+    line-height: 15px;
+}
+
+.nav-page__text {
+    @include font(14px, 300);
+}

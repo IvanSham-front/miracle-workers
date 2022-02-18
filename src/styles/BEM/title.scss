@@ -1,0 +1,10 @@
+.title {
+    @include font(45px, bold);
+    letter-spacing: -0.69px;
+    text-transform: uppercase;
+    color: $yellowText;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+}

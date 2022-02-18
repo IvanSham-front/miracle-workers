@@ -1,0 +1,22 @@
+.left-side-scroll {
+    z-index: 10;
+    transform: rotate(270deg);
+    @include flex-box(row, space-between);
+    color: $menuText;
+    width: 200px;
+    position: absolute;
+    top: 590px;
+    left: -60px;
+}
+
+.left-side-scroll__arrow {
+    width: 64px;
+    background-image: url('../../img/arrow-scroll.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-side-scroll__p {
+    font-family: 'GraphikKinopoiskLCApp';
+    @include font(14px, 300)
+}

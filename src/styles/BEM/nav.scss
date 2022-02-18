@@ -1,0 +1,26 @@
+.nav {
+    @include flex-box(column, space-between);
+    min-height: 340px;
+    font-family: 'GraphikKinopoiskLCApp';
+    color: $menuText;
+}
+
+.nav__inner {
+    position: absolute;
+    top: 0;
+    padding-top: 25px;
+}
+
+.nav__list {
+    min-height: 157px;
+    @include flex-box(column, space-between);
+    align-items: flex-start;
+}
+
+.nav__page > span {
+    display: none
+}
+
+.nav__page_active > span {
+    display: initial;
+}

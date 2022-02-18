@@ -1,0 +1,10 @@
+.counter {
+    position: inherit;
+    @include circle;
+    background-color: $white;
+    width: 55px;
+    height: 55px;
+    @include flex-box(row, center);
+    align-items: center;
+    @include font(15px, bold)
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: 'GraphikKinopoiskLCApp', 'Futura' serif;
+    background-color: $backgroundColor;
+    overflow-x: hidden;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: $big;
+    position: relative;
+    margin: 0 auto;
+}
+
+.fixed-container {
+    max-width: $big - 70px;
+    min-width: 900px;
+    padding: 0 35px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}

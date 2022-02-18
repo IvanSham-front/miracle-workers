@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Futura', 'GraphikKinopoiskLCApp', serif;
+    src: url();
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: bold;
+    font-weight: 700;
+    src: local("Futura"), url("../fonts/futura-bold.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: 'GraphikKinopoiskLCApp';
+    font-style: normal;
+    font-weight: 100;
+    src: local("Futura"), url("../fonts/kinopoisk-light.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: 'GraphikKinopoiskLCApp';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Futura"), url("../fonts/kinopoisk-lite.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: 'GraphikKinopoiskLCApp';
+    font-style: normal;
+    font-weight: 500;
+    src: local("Futura"), url("../fonts/kinopoisk-regular.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: 'GraphikKinopoiskLCApp';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Futura"), url("../fonts/kinopoisk-medium.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: 'GraphikKinopoiskLCApp';
+    font-style: normal;
+    font-weight: 900;
+    src: local("Futura"), url("../fonts/kinopoisk-bold.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: 'GraphikKinopoiskLCApp';
+    font-style: normal;
+    font-weight: bolder;
+    src: local("Futura"), url("../fonts/kinopoisk-semibold.woff2") format("woff2"),
+}

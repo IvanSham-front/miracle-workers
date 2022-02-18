@@ -1,0 +1,39 @@
+.slider {
+    z-index: inherit;
+    max-width: 900px;
+    @include flex-box(column, space-between);
+    align-items: center;
+    position: relative;
+}
+
+
+.slider__image {
+    position: absolute;
+    z-index: -13;
+    top: 10px;
+    left: 280px;
+    @media (max-width: 1100px) {
+        left: 180px;
+    }
+}
+
+.slider__counter {
+    margin-bottom: 107px;
+}
+
+
+.slider__text {
+    padding-top: 215px;
+    font-family: 'GraphikKinopoiskLCApp';
+    @include font(20px, 300);
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    z-index: 13;
+}
+
+.slider__cloud {
+    top: 70px;
+    left: 120px;
+    z-index: -1;
+}
